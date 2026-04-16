@@ -1,0 +1,19 @@
+{
+  "name": "mcp-panel",
+  "version": "1.0.0",
+  "description": "MCP server para o sistema interno de tickets NFPanel",
+  "type": "module",
+  "bin": {
+    "mcp-panel": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=14.8.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "node-fetch": "^3.3.2"
+  }
+}
