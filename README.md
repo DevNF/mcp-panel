@@ -46,12 +46,20 @@ Adicione em `~/.claude/settings.json`:
       "command": "npx",
       "args": ["-y", "mcp-panel"],
       "env": {
-        "PANEL_API_TOKEN": "seu-token"
+        "PANEL_API_TOKEN": "seu-token",
+        "PANEL_API_URL": "https://api.fuganholisistemas.com.br"
       }
     }
   }
 }
 ```
+
+### Variáveis de ambiente
+
+| Variável | Obrigatória | Descrição |
+|---|---|---|
+| `PANEL_API_TOKEN` | **sim** | Bearer token da API |
+| `PANEL_API_URL` | não | URL base da API (padrão: `https://api.fuganholisistemas.com.br`) |
 
 ---
 
